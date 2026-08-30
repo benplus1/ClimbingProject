@@ -944,6 +944,15 @@ public class SceneConfiguror : MonoBehaviour
         return Grip.DescribeGateVersion();
     }
 
+    /// <summary>Which grip cue the participant was shown, so a recording says whether the per-finger
+    /// contact patches were on top of the silhouette rim or the rim stood alone.</summary>
+    public string DescribeGripCueVersion()
+    {
+        return gripScoreConfig != null && gripScoreConfig.contactPatchCueEnabled
+            ? "rim+patches-v1"
+            : "rim-v1";
+    }
+
     private void ApplyModeToRouteHolds()
     {
         if (activeHoldsList == null)

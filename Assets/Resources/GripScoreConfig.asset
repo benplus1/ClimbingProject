@@ -30,3 +30,11 @@ MonoBehaviour:
   mediumScoreColor: {r: 1, g: 0.55, b: 0.05, a: 1}
   highScoreColor: {r: 0.1, g: 0.85, b: 0.2, a: 1}
   contactPatchMaterial: {fileID: 2100000, guid: a9a357a77ad7240db9bd45b441199368, type: 2}
+  contactPatchCueEnabled: 1
+  contactPatchFieldMaterial: {fileID: 2100000, guid: ef199dca6dec63e4ca52fbf541d8ed1a, type: 2}
+  thumbPatchColor: {r: 0.902, g: 0.6235, b: 0, a: 1}
+  indexPatchColor: {r: 0.3373, g: 0.7059, b: 0.9137, a: 1}
+  middlePatchColor: {r: 0, g: 0.6196, b: 0.451, a: 1}
+  ringPatchColor: {r: 0.8, g: 0.4745, b: 0.6549, a: 1}
+  littlePatchColor: {r: 0.8353, g: 0.3686, b: 0, a: 1}
+  contactPatchExposure: 1

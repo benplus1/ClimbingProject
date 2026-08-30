@@ -55,6 +55,7 @@ public sealed class StudySessionManifest
     public string routesJsonSha256;
     public string gripFeedback;
     public string gripGateVersion;
+    public string gripCueVersion;
     public int droppedCaptureFrames;
     public HoldAggregateData[] holdAggregates = Array.Empty<HoldAggregateData>();
 }
