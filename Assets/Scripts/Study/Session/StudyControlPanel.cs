@@ -268,7 +268,7 @@ public sealed class StudyControlPanel
             Color.white,
             TextAlignmentOptions.Center,
             FontStyles.Bold);
-        title.text = "VHARD STUDY CONSOLE";
+        title.text = "STUDY CONSOLE";
         TextMeshPro subtitle = CreateText(
             panelRoot.transform,
             "Console Subtitle",
